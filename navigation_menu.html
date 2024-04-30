@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Vertical Menu</title>
+    <style>
+        .first ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .first ul li a {
+            text-decoration: none;
+            width: 70px;
+            background-color: aqua;
+            display: block;
+            padding: 8px 16px;
+        }
+
+        .first ul li a:hover {
+            background-color: blue;
+            color:white;
+        }
+
+        .first ul li a.active{
+            background-color: rgb(222, 241, 12);
+            color:white;
+        }
+
+        .second ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .second ul li a {
+            text-decoration: none;
+            padding: 10px;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        .second ul li {
+            display: inline;
+            margin-right: 5px;
+        }
+
+        .second ul li a:hover {
+            background-color: rgb(226, 43, 147);
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Vertical Menu / Navigation</h3>
+    <div class="first">
+        <ul>
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+    <hr>
+    <h3>Horizontal Menu / Navigation</h3>
+    <div class="second">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
