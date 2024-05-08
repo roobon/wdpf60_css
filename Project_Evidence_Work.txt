@@ -1,0 +1,10 @@
+Project: Website with 4-5 pages
+
+
+Evidence: 3 pages template
+
+0. Wrapper	
+1. Banner with logo and search box
+2. Navbar
+3. Left bar and Content Area
+4. Footer
